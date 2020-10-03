@@ -1,4 +1,4 @@
-resource "aws_ecs_cluster" "batch-cluster" {
+resource "aws_ecs_cluster" "batch_cluster" {
   name = "batch-cluster"
 
   tags = {
